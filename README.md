@@ -67,6 +67,12 @@ This script was developed to overcome this limitation. By analyzing the "landing
     - `DB_PASSWORD`: Your MySQL database password.
     - `DB_DATABASE`: The name of your MySQL database.
 
+The default date range is set to 7 days. You can change this by modifying the `startDate` and `endDate` variables in the script.
+
+```typescript
+dateRanges: [{ startDate: "7daysAgo", endDate: "today" }];
+```
+
 ## Usage
 
 To run the synchronization script, use the following command:
