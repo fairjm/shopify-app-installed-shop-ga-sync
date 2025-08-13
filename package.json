@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "run-test": "tsx src/test-mysql/index.ts",
     "ga-sync": "tsx src/ga-sync/index.ts"
   },
   "keywords": [],
